@@ -110,6 +110,9 @@ footer {
 #words-only h2{
   margin:0px;
 }
+#portfolio {
+  height:300px;
+}
 
 /* mobile mode */
 @media screen and (max-width: 1000px) {
@@ -118,6 +121,10 @@ footer {
   }
   #words {
     width: 100%;
+  }
+  #portfolio {
+    height:auto;
+    width: 100%
   }
   footer{
     text-align: center;
@@ -153,7 +160,7 @@ section{
   background-image:url('./images/portfolio/DSC_0538_small.jpg');
   background-size: cover;
   background-position:center;
-  background-attachment: scroll;
+  background-attachment: fixed;
 
 }
 
