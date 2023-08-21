@@ -151,7 +151,9 @@ section{
 
 #sect-1{
   background-image:url('./images/portfolio/DSC_0538.jpg');
-  width:100%;
+  background-size: cover;
+  background-position:center;
+  background-attachment: fixed;
 
 }
 
