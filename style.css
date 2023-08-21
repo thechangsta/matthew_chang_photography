@@ -143,9 +143,6 @@ footer {
     width: 100%;
   }
   #sect-1{
-    background-image:url('./images/portfolio/DSC_0538_mobile.jpg');
-    background-size: cover;
-    background-position:center;
     background-attachment: scroll;
   }
 }
@@ -156,14 +153,13 @@ section{
   background-position: center;
   background-repeat: repeat-y;
   background-size: cover;
-  background-attachment: fixed;
 }
 
 #sect-1{
   background-image:url('./images/portfolio/DSC_0538.jpg');
   background-size: cover;
   background-position:center;
-  background-attachment: fixed;
+  background-attachment: scroll;
   margin: auto;
   display:block;
   height: auto;
