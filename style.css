@@ -142,8 +142,11 @@ footer {
     text-align:center;
     width: 100%;
   }
-  #resume{
-    height:100%;
+  #sect-1{
+    background-image:url('./images/portfolio/DSC_0538_mobile.jpg');
+    background-size: cover;
+    background-position:center;
+    background-attachment: scroll;
   }
 }
 #clear{
@@ -157,11 +160,13 @@ section{
 }
 
 #sect-1{
-  background-image:url('./images/portfolio/DSC_0538_small.jpg');
+  background-image:url('./images/portfolio/DSC_0538.jpg');
   background-size: cover;
   background-position:center;
   background-attachment: fixed;
-
+  margin: auto;
+  display:block;
+  height: auto;
 }
 
 #learn{
