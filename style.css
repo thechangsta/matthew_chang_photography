@@ -39,6 +39,7 @@ div.menubar{
   height: auto;
   display: inline-block;
   color:white;
+  vertical-align: top;
 }
 div.menu-content{
   max-width:1200px;
@@ -149,16 +150,11 @@ footer {
 #clear{
   clear: both;
 }
-section{
-  background-position: center;
-  background-repeat: repeat-y;
-  background-size: cover;
-}
 
 #sect-1{
-  background-image:url('./images/portfolio/DSC_0538.jpg');
+  background-image:url('./images/portfolio/DSC_0538_top2.jpg');
   background-size: cover;
-  background-position:center;
+  background-position:top;
   background-attachment: scroll;
   margin: auto;
   display:block;
@@ -212,9 +208,4 @@ footer{
 #author{
   float: right;
   font-size:15px;
-}
-
-#resume{
-  width:100%;
-  height:1200px;
 }
