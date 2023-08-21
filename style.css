@@ -1,0 +1,210 @@
+
+head{
+  overflow-x:hidden;
+}
+html {
+  scroll-behavior: smooth;
+}
+#indent{
+  text-indent:20px;
+}
+body{
+  margin:auto;
+  display:block;
+  font-size:20px;
+  font-family: 'Poppins',sans-serif;
+  font-weight:light;
+  background-color: white;
+  color:#4c566a;
+  overflow-x:hidden;
+}
+div.title{
+    color:#f4f4f4;
+    font-size:30px;
+    font-weight:200;
+    font-stretch: condensed;
+    text-transform: lowercase;
+    text-align: center;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+#name{
+    font-size: 60px;
+}
+div.menubar{
+  background-color:rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: auto;
+  display: inline-block;
+  color:white;
+}
+div.menu-content{
+  max-width:1200px;
+  margin: auto;
+  padding:10px;
+}
+div.website-logo{
+  float:left;
+}
+div.menu{
+  max-width: 1200px;
+  height: 100%;
+  margin: auto;
+  text-align: right;
+  line-height: 80px;
+  font-size:16px;
+  float:right;
+}
+
+#content{
+    max-width:1200px;
+    margin: auto;
+    padding:10px;
+    display:block;
+    overflow: auto;
+   height: auto;
+
+}
+footer {
+  max-width:1200px;
+  margin:auto;
+  padding:10px;
+  display:block;
+  overflow-x:hidden;
+}
+
+#picture {
+  width: 50%;
+  float: left;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow: auto;
+  height: auto;
+  text-align: center;
+}
+#words {
+  width: 50%;
+  float: left;
+  height: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow: auto;
+   height: auto;
+}
+
+#words h2{
+  margin:0px;
+}
+
+#words-only {
+  width: 100%;
+  float: left;
+  height: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow: auto;
+   height: auto;
+}
+#words-only h2{
+  margin:0px;
+}
+
+/* mobile mode */
+@media screen and (max-width: 1000px) {
+  #picture {
+    width: 100%;
+  }
+  #words {
+    width: 100%;
+  }
+  footer{
+    text-align: center;
+  }
+  #author{
+    float:center;
+    width:100%;
+  }
+  div.menu{
+    text-align: center;
+    width:100%;
+  }
+  div.website-logo{
+    float: center;
+    text-align:center;
+    width: 100%;
+  }
+  #resume{
+    height:100%;
+  }
+}
+#clear{
+  clear: both;
+}
+section{
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#sect-1{
+  background-image:url('./images/portfolio/DSC_0538.jpg');
+  height:auto;
+
+}
+
+#learn{
+  text-align: center;
+}
+#link-button{
+  background-color:#4c566a;
+  display: inline-block;
+  padding:0px 10px;
+  color: white;
+  text-decoration: none;
+  opacity:1.0;
+  text-indent:0px;
+  border-radius: 10px;
+}
+#link-button:hover{
+  opacity: .5;
+}
+
+#logo{
+  width:40px;
+  opacity: 1.0;
+  text-decoration: none;
+  color: white;
+}
+
+#logo:hover{
+  opacity: 0.5;
+}
+
+footer{
+  color:#4c566a;
+}
+#menubutton{
+  text-decoration: none;
+  padding: 10px;
+  color:#f4f4f4;
+  opacity:1.0;
+}
+#menubutton:hover{
+  opacity: .5;
+}
+
+#contact{
+    font-size:15px;
+}
+#author{
+  float: right;
+  font-size:15px;
+}
+
+#resume{
+  width:100%;
+  height:1200px;
+}
