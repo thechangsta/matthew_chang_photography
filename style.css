@@ -2,6 +2,9 @@
 head{
   overflow-x:hidden;
 }
+img {
+  pointer-events: none;
+}
 html {
   scroll-behavior: smooth;
 }
