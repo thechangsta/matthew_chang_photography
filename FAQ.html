@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Matthew Chang - College Station Photographer</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .accordion {
+      background-color: #eee;
+      color: #444;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 20px;
+      transition: 0.4s;
+      font-weight: bold;
+      font-family: 'Poppins',sans-serif;
+    }
+  
+    .active, .accordion:hover {
+      background-color: #ccc;
+    }
+  
+    .panel {
+      padding: 0 18px;
+      background-color: white;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+    }
+    </style>
+</head>
+
+<body>
+
+  <section id="sect-1">
+    <div class="menubar">
+      <div class="menu-content">
+      <div class="website-logo">
+        <a href = "index.html"><img src="images/logo.png" height="80px"></a>
+      </div>
+      <div class="menu">
+          <a href = "index.html" id="menubutton">home</a>
+          <a href = "schedule.html" id ="menubutton">schedule</a>
+          <a href = "FAQ.html" id ="menubutton">FAQ</a>  
+          <a href = "contact.html" id ="menubutton">contact</a>
+      </div>
+      </div>
+    </div>
+
+        
+  </section>
+
+
+  <div id ="content">
+    <div style="text-align: center;">
+      <h2>FAQ</h2>
+    </div>
+    <hr>
+
+    <button class="accordion">▾ How long before I get my photos?</button>
+    <div class="panel">
+      <p>You will receive your photos within 7 business days after your photoshoot. If you need them sooner, just let me know and we can work something out!</p>
+    </div>
+
+    <button class="accordion">▾ Do you edit my photos?</button>
+    <div class="panel">
+      <p>Yes! I use Adobe Lightroom to improve lighting and color balance in the photos. I will also remove skin blemishes and people from the background if they are distracting.</p>
+    </div>
+
+    <button class="accordion">▾ Can I bring a friend, family, SO, etc. to my photoshoot?</button>
+    <div class="panel">
+      <p>Of course! The more the merrier. Just let me know in advance if you do!</p></br>
+    </div>
+
+    <button class="accordion">▾ How do I know what poses to do?</button>
+    <div class="panel">
+      <p>You're always welcome to pose however you feel, but if you don't know what to do, I will be there every step of the way to pose you. If you have any poses that you've seen online that you really like, show them to me and we can make it happen!</p>
+    </div>
+
+    <button class="accordion">▾ What if it rains on the day of my shoot?</button>
+    <div class="panel">
+      <p>If it looks like we're gonna have some inclement weather, I will contact you and reschedule free of charge.</p>
+    </div>
+
+    <div id="clear"></div>
+
+  </div>
+  <hr>
+  
+  <!--javascript for accordian-->
+  <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        } 
+      });
+    }
+    </script>
+    
+</body>
+
+<footer>
+  <div id ="social-links">
+  <a href="https://www.linkedin.com/in/matthew-chang-004a81193/"><img src="images/linkedin.png" id="logo"></a>
+  <a href="https://www.instagram.com/matthewchangphotography"><img src="images/instagram.png" id="logo"></a>
+  </div>
+  <span id="contact">✉ matthewchangphotography@gmail.com</span>
+  <span id="author">Matthew Chang Photography 2024</span>
+</footer>
+
+
+
+</html>
